@@ -1,0 +1,19 @@
+/* Опросы */
+.poll-form label {
+	color: $lightFontColor;
+}
+.poll-form .se-form {
+	margin-top: .5em;
+}
+#poll-header {
+	font-size: 2em;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	border-bottom: dotted 2px rgba(255,255,255,.5);
+	padding-bottom: 4px;	
+	margin: 25px 0;
+	color: $defaultFontColor;
+}
+.poll-form .form-group {
+	min-height: 4em;
+}

@@ -1,0 +1,52 @@
+#btn-poll-container {
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+}
+#btn-poll-container a {
+	display: block;
+	background-color: $lightFontColor;
+	width: 150px;
+	text-align: center;
+	margin: 0 auto;
+        color: $defaultFontColor;
+        
+}
+a.se-btn {
+	display: block;
+	text-decoration: none;
+}
+.col-6 .se-desc-blocks .se-btn {
+	width: 80%;
+	padding-top: .8em;
+	padding-bottom: .8em;
+	border-radius: 2em;
+}
+.col-6 .se-desc-blocks #se-standart-left {
+	margin-left: 20%;
+}
+.col-6 .se-desc-blocks #se-standart-right {
+	margin-right: 20%;
+}
+.se-btn {
+	width: 100%;
+	border-radius: 20px;
+	text-align: center;
+	padding: 5px 0;
+	cursor: pointer;
+	transition: background-color ease-in-out .15s;
+}
+.se-btn.se-btn-def {
+	background-color: $corporateColor;
+	color: $lightFontColor;
+}
+.se-btn.se-btn-light {
+	background-color: $backgroundDefaultColor;
+	color: $defaultFontColor;
+}
+.se-btn.se-btn-light:hover {
+	background-color: lighten($backgroundDefaultColor,5%);
+}
+.se-btn.se-btn-def:hover {
+	background-color: lighten($corporateColor,5%);
+}

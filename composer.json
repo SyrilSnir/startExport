@@ -1,0 +1,15 @@
+{
+    "require": {
+        "yiisoft/yii2": "2.0.15.1",
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.1.0",
+        "codeception/codeception": "^2.5"
+    },
+    "config": {
+        "fxp-asset": {
+            "installer-paths": {
+                "bower-asset-library": "vendor/bower"
+            }
+        }
+    }
+}
